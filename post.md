@@ -813,6 +813,7 @@ On receiving a POST request we should create a new record in db and send push no
 var mongoose = require('mongoose');
 var News = mongoose.model('News');
 var Users = mongoose.model('Users');
+var apn = require('apn');
 var _ = require('lodash');
 
 module.exports = function (app) {
@@ -865,7 +866,6 @@ module.exports = function (app) {
 				for (var i = 0; i < users.length; i++) {
 					var user = users[i];
 
-					var apn = require('apn');
 					var device = new apn.Device(user.deviceToken);
 					var note = new apn.Notification();
 					note.badge = 1;
