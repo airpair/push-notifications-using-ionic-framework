@@ -594,7 +594,7 @@ You will see login page, after tapping the **Login with Twitter** button, you wi
 ![login-page](https://dl.dropboxusercontent.com/u/17828362/ionic-push-notifications/08.jpg)
 ![login-page](https://dl.dropboxusercontent.com/u/17828362/ionic-push-notifications/09.jpg)
 
-At the first time, when you are trying to lunch any application that use push notifications, you should give an access, so after you entering twitter credentials, you will see popup
+At the first time, when you are trying to launch any application that use push notifications, you should give an access, so after you entering twitter credentials, you will see popup
 
 ![push-access](https://dl.dropboxusercontent.com/u/17828362/ionic-push-notifications/10.png)
 
@@ -899,7 +899,7 @@ module.exports = function (app) {
 ```
 We have used [apn](https://github.com/argon/node-apn) module to send push notifications. Don't forget to copy `PushNewsCert.pem` and `PushNewsKey.pem` files, created in the beginninng of this topic, to the project root directory.
 
-Push notofication will be sent, but how app will know about it? We must add an event listener to the `app.js`
+Push notification will be sent, but how app will know about it? We must add an event listener to the `app.js`
 
 
 
