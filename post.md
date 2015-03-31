@@ -392,7 +392,7 @@ $ cordova plugin add https://github.com/phonegap-build/PushPlugin.git
 ```
 
 
-After getting user data, we send it to the server. Bad practice to do this in Controller, so let's create Service.
+After getting user data, we send it to the server. Let's create Service.
 
 ```javascript,linenums=true
 /**
@@ -687,9 +687,8 @@ To refresh news list we have used [pull to refresh](http://ionicframework.com/do
 ...
 ```
 
-We will descibe server requests also in service.
+Let's create dedicated service for backend requests
 
-Create a new file `newsService.js`
 ```javascript,linenums=true
 /**
  *  www/js/newsService.js
@@ -929,7 +928,7 @@ Try adding news and enjoy the results.
 
 
 ## Conclusion
-We have created the project which demonstrates how easy you can build iOS applications using web technologies only. 
+We have created the project, which demonstrates how easy you can build iOS applications using web technologies only. 
 
 Full project you can find on the [Github](https://github.com/otelnov/pushNews).
 
