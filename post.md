@@ -589,7 +589,7 @@ $ ionic build ios
 
 ![xcode](https://dl.dropboxusercontent.com/u/17828362/ionic-push-notifications/13.png)
 
-You will see login page, after tapping the **Login with Twitter** button, you will see twitter auth page.
+You will see login page. After tapping the **Login with Twitter** button, you will see twitter auth page.
 
 ![login-page](https://dl.dropboxusercontent.com/u/17828362/ionic-push-notifications/08.jpg)
 ![login-page](https://dl.dropboxusercontent.com/u/17828362/ionic-push-notifications/09.jpg)
