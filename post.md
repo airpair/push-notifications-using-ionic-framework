@@ -60,7 +60,7 @@ Go to **App IDs** in the sidebar and click the **"+"** button.
 Enter App ID registration data:
 
 * App ID Description / Name - **PushNews**
-* Explicit App ID / Bundle ID - **com.telnov.PushNews** (this ID and cordova app name should be the same)
+* Explicit App ID / Bundle ID - **com.your_domain.PushNews** (this ID and cordova app name should be the same)
 * App Services / Enable Services - **Push Notifications**
 
 Press **Continue** and **Submit**.
@@ -121,7 +121,7 @@ $ ionic serve
 
 ![create-app-id](https://dl.dropboxusercontent.com/u/17828362/ionic-push-notifications/07.png)
 
-Let's change cordova id in `config.xml` (by default it will be something like com.ionicframework.PushNews456803) to **Explicit App ID / Bundle ID** value you have entered above. In my case it is **com.telnov.PushNews**.
+Let's change cordova id in `config.xml` (by default it will be something like com.ionicframework.PushNews456803) to **Explicit App ID / Bundle ID** value you have entered above (com.your_domain.PushNews).
 
 ```markup
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
