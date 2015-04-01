@@ -392,7 +392,7 @@ $ cordova plugin add https://github.com/phonegap-build/PushPlugin.git
 ```
 
 
-After getting user data, we send it to the server. Let's create Service.
+After getting user data, we send it to the server. Check [this](http://blog.pluralsight.com/angularjs-step-by-step-services) article by [Jim Cooper](http://blog.pluralsight.com/author/jimcooperps) to understand why we shouldn't do this in Controller. Let's create Service.
 
 ```javascript,linenums=true
 /**
