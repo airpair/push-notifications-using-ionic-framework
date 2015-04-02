@@ -605,6 +605,7 @@ Let's create dedicated service for backend requests
 ```
 
 ### Server side (news)
+
 We need a simple form for creating news on the server
 
 ```markup,linenums=true
@@ -758,6 +759,7 @@ module.exports = function (app) {
   }
 };
 ```
+
 We have used [apn](https://github.com/argon/node-apn) module to send push notifications. Also we used `PushNewsCert.pem` and `PushNewsKey.pem` files, we will create them in the next step.
 
 Push notification will be sent, but how app will know about it? We must add an event listener to the `app.js`
@@ -778,6 +780,7 @@ Push notification will be sent, but how app will know about it? We must add an e
 })
 ...
 ```
+
 
 ## Provisioning Profile and Certificates
 
