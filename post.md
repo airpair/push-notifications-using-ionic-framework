@@ -12,7 +12,7 @@ Unfortunately, there are a lot of bad things happening every day. So we are goin
 
 The name of the application will be **PushNews**, but of course you can use your own.
 
-[![result](http://img.youtube.com/vi/KbgjAJpav88/0.jpg)](http://www.youtube.com/watch?v=KbgjAJpav88)
+<iframe width="640" height="480" src="https://www.youtube.com/embed/MRSIgfM-Omc?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ## Prerequisites
 
