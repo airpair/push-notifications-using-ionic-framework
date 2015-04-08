@@ -47,8 +47,6 @@ $ ionic serve
 
 ![create-app-id](https://dl.dropboxusercontent.com/u/17828362/ionic-push-notifications/07.png)
 
-
-
 ### Installing additional libs and setting up routes
 
 ```bash,linenums=true
@@ -783,7 +781,6 @@ Push notification will be sent, but how app will know about it? We must add an e
 ...
 ```
 
-
 ## Provisioning Profile and Certificates
 
 For using push notifications in our app, we have to prepare the App ID, SSL Certificate and create Provisioning Profile in iOS Dev Center.
@@ -901,11 +898,9 @@ Try adding news and enjoy the results.
 
 ![push](https://dl.dropboxusercontent.com/u/17828362/ionic-push-notifications/12.png)
 
-
 ## Conclusion
 We have created the project, which demonstrates how easy you can build iOS applications using web technologies only. 
 
 Full project you can find on the [Github](https://github.com/otelnov/pushNews).
 
 Thanks for reading!
-
